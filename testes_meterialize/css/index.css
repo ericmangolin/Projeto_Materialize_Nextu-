@@ -1,0 +1,10 @@
+.barra-superior{
+  min-height: 4rem;
+}
+div[class*="coluna"]{
+  min-height: 50rem;
+  border: 1px solid gray;
+}
+div[class*="bloco"]{
+  height: 25rem;
+}

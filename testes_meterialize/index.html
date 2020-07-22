@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <!--Importa a fonte dos icones do Google-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Importa as folhas de estilo do materialize css-->
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Containers e Sistema de Grid</title>
+  </head>
+  <body>
+    <div class="row">
+
+      <div class="col s12 amber lighten-2">
+        <h5>Cabeçalho + Pesquisa</h5>
+      </div>
+
+      <div class="col s2 m2 l2 blue-grey lighten-3 push-s10 coluna">
+        <span>Coluna Esquerda</span>
+      </div>
+
+      <div class="col s10 m7 l7 pull-s2 pull-s2 coluna">
+        <div class="row">
+          <div class="col s12 m12 l8 red lighten-2 coluna">
+            <h4>Publicações</h4>
+          </div>
+          <div class="col l3 blue lighten-1 offset-l1 coluna">
+            <h4>Notícias</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="col m3 l3 pink lighten-2 hide-on-medium-only coluna">
+        <div class="row">
+          <div class="col s12 grey bloco">
+            <h4>Atividades Recentes</h4>
+          </div>
+          <div class="col s12 grey lighten-3 bloco">
+            <h4>Bate papo</h4>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
+
