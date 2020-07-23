@@ -8,3 +8,22 @@ div[class*="coluna"]{
 div[class*="bloco"]{
   height: 25rem;
 }
+
+h1, h2, h3, h4, h5{
+  width: 100%;
+  border: solid black 1px;
+}
+
+span{
+  width: 100%;
+  border: solid black 1px;
+}
+.quadrado{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background-color: tomato;
+  display: inline-block;
+  margin: 10px 20px;
+  padding-top: 2.5rem;
+}
