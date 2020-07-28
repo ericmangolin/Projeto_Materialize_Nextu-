@@ -1,0 +1,33 @@
+.cabecalho{
+  margin-bottom: 0px;  
+}
+.midias{
+  margin-bottom: 0px;
+}
+.col-midias{
+  width: 2rem;
+  height: 25rem;
+}
+.col{
+  border: solid 1px black;
+  background-color: #ee6e73;
+}
+.geral{
+  border: solid green 1px;
+  margin-bottom: 0px;
+}
+.geral-1{
+  height: 50%;
+  border: solid blue 1px;
+  margin-bottom: 0px;
+}
+.geral-2{
+  height: 100%;
+  border: solid blue 1px;
+  margin-bottom: 0px;
+}
+.geral-3{
+  height: 100%;
+  border: solid blue 1px;
+  margin-bottom: 0px;
+}
