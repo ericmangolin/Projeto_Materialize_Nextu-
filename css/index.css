@@ -1,16 +1,71 @@
+/* SEÇÃO */
+/* CORES PADRÃO */
+/* #6BB0BF
+#F2B680
+#D99873
+#735755
+#F2F2F2 */
+
+/* #142615
+#497336
+#415936
+#BF8F73
+#73412F */
+/*----------------------------------------*/
+
+/* CABEÇALHO */
 .cabecalho{
-  margin-bottom: 0px;  
-}
-.midias{
   margin-bottom: 0px;
+  background-color: #142615;
+}
+
+.menu{
+  background-color: #142615;
+  box-shadow: none;
+}
+
+.logo-princ{
+  width: 8rem;
+  margin: 1rem;
+}
+.slogan{
+  text-align: left;
+  margin-left: 10rem;
+  font-size: 1.5rem;
+  font-family: "Roboto";
+  font-style: italic;
+  color: #F2F2F2;
+}
+.btn{
+  background-color: #497336;
+  color: #F2F2F2;
+}
+.btn:hover{
+  background-color: #415936;
+}
+/*----------------------------------------*/
+/* BODY */
+body{
+  background-color: #F2F2F2;
+}
+/*----------------------------------------*/
+
+
+/* MÍDIAS SOCIAIS */
+.midias{
+  margin: 0px;
+  display: inline-block;
+
+}
+#ico-media{
+  margin: 2px 2px 2px 2px;
+  padding: 0px;
 }
 .col-midias{
-  width: 2rem;
-  height: 25rem;
+  padding-left: 0px;
 }
 .col{
   border: solid 1px black;
-  background-color: #ee6e73;
 }
 .geral{
   border: solid green 1px;
@@ -22,12 +77,11 @@
   margin-bottom: 0px;
 }
 .geral-2{
-  height: 100%;
+  width: 100%;
   border: solid blue 1px;
   margin-bottom: 0px;
 }
 .geral-3{
-  height: 100%;
   border: solid blue 1px;
   margin-bottom: 0px;
 }
